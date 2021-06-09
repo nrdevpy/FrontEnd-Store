@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Normalize & Font -->
+        <link rel="stylesheet" href="styles/normalize.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;700&display=swap"
+        rel="stylesheet">
+
+        <!-- Style -->
+        <link rel="stylesheet" href="styles/style.css">
+
+        <title>FrontEnd Store</title>
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+            <a href="index.html">
+                <img class="header__logo" src="img/logo.png" alt="logo">
+            </a>
+        </header>
+
+        <!-- Nav -->
+        <nav class="nav">
+            <a class="nav__link" href="index.html">Tienda</a>
+            <a class="nav__link" href="nosotros.html">Nosotros</a>
+        </nav>
+
+        <!-- Main -->
+        <main class="container">
+            <h1>React JS</h1>
+            <div class="tshirt">
+                <img class="tshirt__image" src="img/3.jpg" alt="camisa">
+                <div class="tshirt__content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea eaque neque, inventore quod esse aperiam maiores animi officia, aut eos deserunt excepturi distinctio explicabo, asperiores accusantium odio consectetur! Aut!
+                    </p>
+                    <form class="form">
+                        <select class="form__field">
+                            <option disabled selected>-- Selecciona Talla --</option>
+                            <option>Pequeña</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+                        <input class="form__field" type="number" placeholder="Cantidad" min="1">
+                        <input class="form__submit" type="submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+            </div>
+        </main>
